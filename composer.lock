@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f73dbdbb0da89ddaa1a47b788f3a504f",
+    "content-hash": "b3bba7db08c89bf25fcb9e40e62fa0b1",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -7347,6 +7347,58 @@
                 "rss": "https://github.com/verbb/image-resizer/commits/v2.atom"
             },
             "time": "2024-03-04T09:30:05+00:00"
+        },
+        {
+            "name": "verbb/knock-knock",
+            "version": "3.0.0-beta.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/verbb/knock-knock/zipball/5f5109d140c7d54a80ccbbdc8c647e1e5eb511c8",
+                "reference": "5f5109d140c7d54a80ccbbdc8c647e1e5eb511c8",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^5.0.0-beta.1",
+                "php": "^8.2",
+                "verbb/base": "^3.0.0-beta.1"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Knock Knock",
+                "handle": "knock-knock",
+                "changelogUrl": "https://raw.githubusercontent.com/verbb/knock-knock/craft-5/CHANGELOG.md",
+                "class": "verbb\\knockknock\\KnockKnock"
+            },
+            "autoload": {
+                "psr-4": {
+                    "verbb\\knockknock\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Verbb",
+                    "homepage": "https://verbb.io"
+                }
+            ],
+            "description": "Password protect your public facing Craft website with a single password.",
+            "keywords": [
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "knock-knock"
+            ],
+            "support": {
+                "email": "support@verbb.io",
+                "issues": "https://github.com/verbb/knock-knock/issues?state=open",
+                "source": "https://github.com/verbb/knock-knock",
+                "docs": "https://github.com/verbb/knock-knock",
+                "rss": "https://github.com/verbb/knock-knock/commits/v2.atom"
+            },
+            "time": "2024-03-04T09:30:08+00:00"
         },
         {
             "name": "verbb/super-table",

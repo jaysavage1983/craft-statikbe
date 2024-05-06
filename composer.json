@@ -36,6 +36,7 @@
     "verbb/formie": "^3.0.0-beta.9",
     "verbb/hyper": "^2.0.0-beta.8",
     "verbb/image-resizer": "^4.0.0-beta.1",
+    "verbb/knock-knock": "^3.0.0-beta.1",
     "verbb/super-table": "^4.0.0-beta.3",
     "verbb/tablemaker": "^5.0.0-beta.2",
     "vlucas/phpdotenv": "^5.4.1"
