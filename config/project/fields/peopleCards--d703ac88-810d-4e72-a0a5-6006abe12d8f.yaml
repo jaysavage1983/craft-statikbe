@@ -1,0 +1,23 @@
+columnSuffix: null
+handle: peopleCards
+instructions: null
+name: 'People (cards)'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showCardsInGrid: true
+  showSiteMenu: false
+  sources:
+    - 'section:4feebbb0-a0ad-47ba-91d7-9dc832e668f0' # People
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

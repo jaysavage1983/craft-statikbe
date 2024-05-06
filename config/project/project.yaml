@@ -1,4 +1,4 @@
-dateModified: 1714997751
+dateModified: 1715005789
 elementSources:
   craft\elements\Entry:
     -
@@ -44,6 +44,9 @@ elementSources:
         - link
       type: native
     -
+      key: 'single:6f79e12f-9d80-4f17-ae51-5160127975ec' # Site Settings
+      type: native
+    -
       heading: News
       type: heading
     -
@@ -65,119 +68,11 @@ elementSources:
         - link
       type: native
     -
-      heading: Account
-      type: heading
-    -
-      disabled: false
-      key: 'single:361daec5-5ea3-4d9f-957f-f39c78bb595e'
-      tableAttributes:
-        - slug
-        - revisionCreator
-        - dateUpdated
-        - link
-      type: native
-    -
-      disabled: false
-      key: 'single:c25b1e19-dca6-4ab5-a776-a043f6ee4c82'
-      tableAttributes:
-        - slug
-        - revisionCreator
-        - dateUpdated
-        - link
-      type: native
-    -
-      disabled: false
-      key: 'single:684ece64-c23a-4abf-9574-f2c053d496e8'
-      tableAttributes:
-        - slug
-        - revisionCreator
-        - dateUpdated
-        - link
-      type: native
-    -
-      disabled: false
-      key: 'single:dca2ac05-7833-41de-b7b4-a737c090575c'
-      tableAttributes:
-        - slug
-        - revisionCreator
-        - dateUpdated
-        - link
-      type: native
-    -
-      disabled: false
-      key: 'single:d5601a1f-a33e-4c5a-b7af-1f29347149ca'
-      tableAttributes:
-        - slug
-        - revisionCreator
-        - dateUpdated
-        - link
-      type: native
-    -
-      disabled: false
-      key: 'single:1c4e3f0f-ca9b-474d-a460-48f45133c763'
-      tableAttributes:
-        - slug
-        - revisionCreator
-        - dateUpdated
-        - link
-      type: native
-    -
-      disabled: false
-      key: 'single:53c1af4c-0fbd-4811-a028-67fed65195b9'
-      tableAttributes:
-        - slug
-        - revisionCreator
-        - dateUpdated
-        - link
-      type: native
-    -
-      disabled: false
-      key: 'single:8e583282-1fec-4444-822f-37b2d5961f28'
-      tableAttributes:
-        - slug
-        - revisionCreator
-        - dateUpdated
-        - link
-      type: native
-    -
-      disabled: false
-      key: 'single:4703bf34-5e13-4da1-aff6-d04c0bba024b'
-      tableAttributes:
-        - slug
-        - revisionCreator
-        - dateUpdated
-        - link
-      type: native
-    -
-      disabled: false
-      key: 'single:05aba0e3-e1de-4bf3-8a07-5c9f3ef9475c'
-      tableAttributes:
-        - slug
-        - revisionCreator
-        - dateUpdated
-        - link
-      type: native
-    -
-      disabled: false
-      key: 'single:af69e9a2-96df-4fa9-8cc3-2728ec4fc632'
-      tableAttributes:
-        - slug
-        - revisionCreator
-        - dateUpdated
-        - link
+      key: 'section:01faae48-e031-4496-af0c-89de7f12eccd' # News categories
       type: native
     -
       heading: Other
       type: heading
-    -
-      disabled: false
-      key: 'single:36895330-a28e-477f-9327-bdbe66dabf99'
-      tableAttributes:
-        - slug
-        - revisionCreator
-        - dateUpdated
-        - link
-      type: native
     -
       disabled: false
       key: 'single:c2198cbb-f6e1-478a-ab4a-bbbaea43ce0e' # Privacy policy
@@ -188,29 +83,8 @@ elementSources:
         - link
       type: native
     -
-      key: 'single:99a435d2-9c12-4ef6-8b3b-2a9915d4216b'
-      type: native
-    -
       disabled: false
       key: 'single:4750849d-9328-4d3e-956d-9d317da5e6eb' # Page not found
-      tableAttributes:
-        - slug
-        - revisionCreator
-        - dateUpdated
-        - link
-      type: native
-    -
-      disabled: false
-      key: 'single:e3bed4e1-82ae-45e8-908c-0a6669141b31'
-      tableAttributes:
-        - slug
-        - revisionCreator
-        - dateUpdated
-        - link
-      type: native
-    -
-      disabled: false
-      key: 'single:fa6e0764-a31c-4304-a4d7-76bd3a679e3e'
       tableAttributes:
         - slug
         - revisionCreator
@@ -244,13 +118,17 @@ meta:
     4a2bad07-8d89-4689-b0bf-774eed764660: 'Overview title' # Overview title
     4c4ef055-f88d-4b63-825e-aebd5ea34ad2: 'Privacy policy' # Privacy policy
     4c32edae-2824-4f0f-b38b-2477d2500dfe: 'News Overview' # News Overview
+    4feebbb0-a0ad-47ba-91d7-9dc832e668f0: People # People
     5a25f3e9-a180-4a29-aa41-8721fbf815b9: 'Optimized Content' # Optimized Content
     5d236e94-b6a8-472c-9296-a5c992cdd49a: Contact # Contact
     5dbe5a67-b60b-4529-a095-facb9b24a39b: Table # Table
     5f87e29c-269c-47bd-b6bc-5439a2f855c8: Register # Register
+    6b26fc96-90aa-403f-8644-e6b56d51fe23: 'People (list)' # People (list)
+    6c11e432-f9cd-4a0c-a57b-c97ebc78ad02: Person # Person
     6ca94949-c3f4-465d-88c7-3d4736d97ed4: Address # Address
     6de046f0-6167-4af1-aa91-ffaf83e36a14: NL # NL
     6f79e12f-9d80-4f17-ae51-5160127975ec: 'Site Settings' # Site Settings
+    6fe00c55-5304-4bed-8ff6-e61a94d868c6: 'Plain Text' # Plain Text
     7d23b02c-ad1d-44a8-9751-35fbdcc38963: Standard # Standard
     8f0da589-76b2-4663-9209-ba978821ca83: 'Set Password Confirmation' # Set Password Confirmation
     8ff8437a-a38f-47f0-b489-1701614eec3f: 'Header image' # Header image
@@ -269,10 +147,12 @@ meta:
     75c71ec6-7c59-460d-bac3-80ae2ee887a5: 'Site Settings' # Site Settings
     82edb6db-a497-4e37-8c25-5d4d210f0c81: 'Search keywords' # Search keywords
     89c47888-bddf-4633-9352-1d5dc3bb452f: Home # Home
+    96bfdd1a-e5a4-4b7c-a19c-179da63a915b: 'Team category' # Team category
     109f5d44-e366-49e7-826d-6b13de779861: News # News
     131a4f6d-f00f-4238-b846-dd504bf669fe: Simple # Simple
     0187d268-2643-4a0d-9cf9-b8847480bf9a: 'Confirm your account' # Confirm your account
     0207f1a0-8ec0-4b87-9197-c1d5a9a7b61d: 'Optimized Overview' # Optimized Overview
+    637e661b-7886-4e77-9e7c-84ad1f5d2b1e: Category # Category
     979c3eeb-f99a-4ca1-bcbe-ce9298a4e4ca: 'Public Files' # Public Files
     3196b984-5af4-44dd-a6db-ac2c8f7924d9: 'Content Managers' # Content Managers
     03498d1a-eb01-4cb2-9e2b-623015ed0d85: 'Link Style' # Link Style
@@ -285,11 +165,13 @@ meta:
     64516e7d-b46e-44ff-aa53-34e7e1e0a89d: Default # Default
     072209d1-1c68-4ee5-9a66-a209b518da6d: Mail # Mail
     83568fdb-b819-4743-9c0a-c1a432b36feb: Login # Login
+    99540fbc-fa65-45e6-843a-a9aa79cfa219: Locations # Locations
     197566c6-94bb-4e67-86d7-8945f2589a1d: 'Optimized Hero' # Optimized Hero
     685530fc-e1f1-4be1-813b-ebf9ac3aa108: SEO # SEO
     4750849d-9328-4d3e-956d-9d317da5e6eb: 'Page not found' # Page not found
     6122281a-7d92-44b0-bef8-296775631068: 'Set Password' # Set Password
     88823369-72c4-4751-92df-a430c2f5784b: Profile # Profile
+    a4e94402-796f-43b6-9dc4-bc979d96e2af: Team # Team
     a5c5b738-ae52-4b69-a209-d515d2e7b71a: 'Public Schema' # Public Schema
     a44287f8-d6ed-4f2c-8a63-0c1312ef236e: Image # Image
     aac522be-8926-4b5e-ae63-cb77840a69c9: 'Registration completed' # Registration completed
@@ -307,8 +189,10 @@ meta:
     c576870d-abd8-46aa-8fe5-cdd12c40dfa8: 'News items' # News items
     ce1fab3c-0b02-49d8-8d8f-1bab2d7c05e2: LinkedIn # LinkedIn
     d3b383b6-5ad7-494f-bc13-c06a53a5e5e9: 'News Overview' # News Overview
+    d703ac88-810d-4e72-a0a5-6006abe12d8f: 'People (cards)' # People (cards)
     e57cf13b-f9cb-484a-8093-a897fa43eb68: EN # EN
     e85a2f89-c711-4452-8eda-43dac6449f63: '503' # 503
+    e251fb6e-3de0-413c-b94c-5987e1b01c4e: Location # Location
     e48813cd-24dc-4b06-a97d-2a95520dcc24: Phone # Phone
     ed516703-9411-446f-8ce9-d66e9c48839a: 'Hero Block' # Hero Block
     f2d8b097-d5ba-4224-9736-4dc41bd6580f: Contact # Contact

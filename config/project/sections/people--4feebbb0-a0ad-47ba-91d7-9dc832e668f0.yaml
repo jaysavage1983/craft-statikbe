@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 6c11e432-f9cd-4a0c-a57b-c97ebc78ad02 # Person
+handle: people
+maxAuthors: 1
+name: People
+propagationMethod: all
+siteSettings:
+  6de046f0-6167-4af1-aa91-ffaf83e36a14: # NL
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+  e57cf13b-f9cb-484a-8093-a897fa43eb68: # EN
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+  fd2014b7-5bc0-49a9-ac30-e009081532f7: # FR
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: 1
+  uid: 945fcf0e-dc22-43fe-8dbb-637aa0384764
+type: structure

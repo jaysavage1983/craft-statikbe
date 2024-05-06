@@ -1,0 +1,80 @@
+color: yellow
+fieldLayouts:
+  a8495319-ab08-410d-9ac3-56d057487eac:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 7df65bb3-2476-4e93-b2e3-65c89a552911
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6b26fc96-90aa-403f-8644-e6b56d51fe23 # People (list)
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8861daf6-6194-48a7-a0cf-a68f300b53fa
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d703ac88-810d-4e72-a0a5-6006abe12d8f # People (cards)
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 41634832-769e-43d4-9f18-03a43c9c1144
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fef760fb-2b51-4766-88dd-4303ece33860
+        userCondition: null
+handle: location
+hasTitleField: true
+icon: location-dot
+name: Location
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: ''
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: ''
+titleTranslationMethod: site

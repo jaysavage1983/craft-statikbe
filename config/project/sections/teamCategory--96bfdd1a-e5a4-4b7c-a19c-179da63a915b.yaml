@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: false
+entryTypes:
+  - 637e661b-7886-4e77-9e7c-84ad1f5d2b1e # Category
+handle: teamCategory
+maxAuthors: 1
+name: 'Team category'
+propagationMethod: all
+siteSettings:
+  6de046f0-6167-4af1-aa91-ffaf83e36a14: # NL
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+  e57cf13b-f9cb-484a-8093-a897fa43eb68: # EN
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+  fd2014b7-5bc0-49a9-ac30-e009081532f7: # FR
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: null
+  uid: 4d400be2-e80a-495b-be26-a43bdaeba45b
+type: structure
