@@ -1,10 +1,39 @@
-color: null
+color: green
 fieldLayouts:
   8e0153f8-35f6-4a49-bc77-316bc5dce081:
     tabs:
       -
         elementCondition: null
         elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 660658fd-2dbc-44a4-b9fc-af5a461ce73c
+            userCondition: null
+            warning: null
+            width: 100
           -
             elementCondition: null
             fieldUid: 24983cba-9d55-413d-80dc-0374abd19ec0
@@ -115,12 +144,12 @@ fieldLayouts:
         userCondition: null
 handle: textTwoColumns
 hasTitleField: false
-icon: null
+icon: text
 name: 'Text (2 columns)'
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site

@@ -1,4 +1,4 @@
-dateModified: 1715018027
+dateModified: 1715018759
 elementSources:
   craft\elements\Entry:
     -
@@ -110,6 +110,7 @@ fs:
 meta:
   __names__:
     1a64e732-f1ae-44b6-aee3-bedc6b1ebdd2: 'Cookie policy' # Cookie policy
+    1e4267e1-8d5f-4312-8458-86b19bc17d74: 'Text (2 columns)' # Text (2 columns)
     01faae48-e031-4496-af0c-89de7f12eccd: 'News categories' # News categories
     2a768305-5971-43c0-a2f4-415e648c6a45: Default # Default
     2e4b3bb0-26e4-47d2-9445-54401a221c63: 'X (Twitter)' # X (Twitter)

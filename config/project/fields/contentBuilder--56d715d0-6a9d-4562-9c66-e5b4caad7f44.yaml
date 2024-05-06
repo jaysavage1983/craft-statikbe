@@ -6,7 +6,7 @@ name: 'Content Builder'
 searchable: true
 settings:
   entryTypes:
-    - 1e4267e1-8d5f-4312-8458-86b19bc17d74
+    - 1e4267e1-8d5f-4312-8458-86b19bc17d74 # Text (2 columns)
     - 7b5ab248-6255-4b42-88bc-80c1dee62b20
     - 24bd0074-b53d-404d-9285-a0be9f26bbd4
     - 0396f80c-a192-4beb-a6e7-075075cf0f70
