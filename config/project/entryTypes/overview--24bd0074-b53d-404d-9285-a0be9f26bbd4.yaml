@@ -1,10 +1,39 @@
-color: null
+color: teal
 fieldLayouts:
   0b203f95-b680-4192-8ebc-fd84ef05fc3c:
     tabs:
       -
         elementCondition: null
         elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 4eac4443-3831-40a5-94cc-f9d362d7e0d5
+            userCondition: null
+            warning: null
+            width: 100
           -
             elementCondition: null
             fieldUid: e6665f06-bacd-4421-bd2e-cdf693c23eaf
@@ -55,12 +84,12 @@ fieldLayouts:
         userCondition: null
 handle: overview
 hasTitleField: false
-icon: null
+icon: memo
 name: Overview
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site

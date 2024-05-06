@@ -1,10 +1,39 @@
-color: null
+color: cyan
 fieldLayouts:
   4bb37325-4657-4b4b-a37d-a9601263cf72:
     tabs:
       -
         elementCondition: null
         elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: a4a09626-c1d8-468d-bffb-d5ca35a2b8fa
+            userCondition: null
+            warning: null
+            width: 100
           -
             elementCondition: null
             fieldUid: d66ffcef-8ccc-4e89-9e36-bce49e0dd17a
@@ -70,12 +99,12 @@ fieldLayouts:
         userCondition: null
 handle: video
 hasTitleField: false
-icon: null
+icon: video
 name: Video
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site

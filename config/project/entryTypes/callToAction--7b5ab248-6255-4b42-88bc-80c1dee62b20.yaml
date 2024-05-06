@@ -1,10 +1,39 @@
-color: null
+color: red
 fieldLayouts:
   f997fbbd-3d0f-4ed7-adc1-ba30da763d82:
     tabs:
       -
         elementCondition: null
         elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: b0b3db3e-db09-4179-b40a-f1e642411a25
+            userCondition: null
+            warning: null
+            width: 100
           -
             elementCondition: null
             fieldUid: e2e2a303-7d29-4edb-846d-84e6c8494c50
@@ -85,12 +114,12 @@ fieldLayouts:
         userCondition: null
 handle: callToAction
 hasTitleField: false
-icon: null
+icon: circle-dot
 name: 'Call To Action'
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site

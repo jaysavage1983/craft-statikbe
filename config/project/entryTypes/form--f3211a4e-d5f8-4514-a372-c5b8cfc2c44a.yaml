@@ -1,10 +1,39 @@
-color: null
+color: blue
 fieldLayouts:
   9334ab5d-2a5e-48de-8e2b-f9473c1d7ffb:
     tabs:
       -
         elementCondition: null
         elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: c83b5d13-6249-46b7-a210-37e21f602693
+            userCondition: null
+            warning: null
+            width: 100
           -
             elementCondition: null
             fieldUid: 4769bfc3-3064-404b-baa5-1bd5c5ff2acf
@@ -70,12 +99,12 @@ fieldLayouts:
         userCondition: null
 handle: form
 hasTitleField: false
-icon: null
+icon: input-text
 name: Form
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site
