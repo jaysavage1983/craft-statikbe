@@ -1,4 +1,4 @@
-name: craft-base-install
+name: craft-demo-5
 type: craftcms
 docroot: public
 php_version: '8.2'

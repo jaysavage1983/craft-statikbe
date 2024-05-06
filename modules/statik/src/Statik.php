@@ -115,12 +115,6 @@ class Statik extends Module
             $event->extension = mb_strtolower($event->extension);
         });
 
-        if (Craft::$app->getRequest()->getIsCpRequest()) {
-            Event::on(View::class, View::EVENT_BEFORE_RENDER_TEMPLATE, function(TemplateEvent $event) {
-                Craft::$app->getView()->registerAssetBundle(StatikAsset::class);
-            });
-        }
-
         // Register our fields
         Event::on(Fields::class, Fields::EVENT_REGISTER_FIELD_TYPES, function(RegisterComponentTypesEvent $event) {
             $event->types[] = AnchorLink::class;
