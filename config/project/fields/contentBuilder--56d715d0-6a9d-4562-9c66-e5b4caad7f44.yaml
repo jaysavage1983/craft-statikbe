@@ -14,7 +14,7 @@ settings:
     - 209777db-293c-48b6-9897-1fe97b278510 # Video
     - 95920915-f806-4fbc-9c22-979ec9085fe8 # Text + Video
     - d86336d6-7efa-44f9-9a10-8619c79beeca # Text (+ Image)
-    - f2d33237-c7de-4590-9683-7efe6594ebbd
+    - f2d33237-c7de-4590-9683-7efe6594ebbd # Custom Table
     - f3211a4e-d5f8-4514-a372-c5b8cfc2c44a # Form
   includeTableView: false
   maxEntries: null

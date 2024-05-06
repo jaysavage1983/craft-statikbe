@@ -1,10 +1,39 @@
-color: null
+color: purple
 fieldLayouts:
   b99f4595-d28c-453a-86c2-db4f82eaf870:
     tabs:
       -
         elementCondition: null
         elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 528fac9a-3d5e-42cb-9d7a-48e402c85177
+            userCondition: null
+            warning: null
+            width: 100
           -
             elementCondition: null
             fieldUid: 71a7d521-3217-4254-8b3f-f778279d342c
@@ -40,12 +69,12 @@ fieldLayouts:
         userCondition: null
 handle: customTable
 hasTitleField: false
-icon: null
+icon: table
 name: 'Custom Table'
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site
