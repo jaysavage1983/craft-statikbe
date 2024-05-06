@@ -7,7 +7,7 @@ return [
         'loginPath' => 'knock-knock/who-is-there',
         'template' => '_site/_knock-knock',
         'forcedRedirect' => '',
-        'password' => get_class("KNOCK_KNOCK_PASSWORD"),
+        'password' => getenv("KNOCK_KNOCK_PASSWORD"),
         'siteSettings' => [],
         'checkInvalidLogins' => false,
         'invalidLoginWindowDuration' => '3600',
