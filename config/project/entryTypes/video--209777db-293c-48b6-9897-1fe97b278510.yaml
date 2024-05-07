@@ -50,7 +50,18 @@ fieldLayouts:
             warning: null
             width: 50
           -
-            elementCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\TextFieldConditionRule
+                  fieldUid: d66ffcef-8ccc-4e89-9e36-bce49e0dd17a
+                  layoutElementUid: 10b5c1ef-5a1d-4b4f-90ca-41388b1bc2d1
+                  operator: notempty
+                  uid: 3fc78862-9f56-46d4-836b-e68ca9372002
+                  value: ''
+              elementType: craft\elements\Entry
+              fieldContext: global
             fieldUid: 724561c2-845a-427f-b005-e0c2a35e0112
             handle: null
             includeInCards: false
@@ -61,6 +72,32 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: b84cf6f5-a37f-4a41-8908-4157a510c99d
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\TextFieldConditionRule
+                  fieldUid: d66ffcef-8ccc-4e89-9e36-bce49e0dd17a
+                  layoutElementUid: 10b5c1ef-5a1d-4b4f-90ca-41388b1bc2d1
+                  operator: notempty
+                  uid: 490385ac-af06-4c93-8ec1-df90660505e5
+                  value: ''
+              elementType: craft\elements\Entry
+              fieldContext: global
+            fieldUid: ae5f2b18-f88e-4521-a729-d5fccff56993
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Video Caption'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7cf136e3-1af6-43c5-bcd3-2d6cf2878c1c
             userCondition: null
             warning: null
             width: 50
@@ -76,21 +113,6 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: ee4947c6-1e36-4c0a-9f92-995d187c1983
-            userCondition: null
-            warning: null
-            width: 50
-          -
-            elementCondition: null
-            fieldUid: ae5f2b18-f88e-4521-a729-d5fccff56993
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: 'Video Caption'
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 7cf136e3-1af6-43c5-bcd3-2d6cf2878c1c
             userCondition: null
             warning: null
             width: 50

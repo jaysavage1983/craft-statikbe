@@ -95,7 +95,18 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            elementCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\RelationalFieldConditionRule
+                  elementId: null
+                  fieldUid: f21594e6-d83e-4047-a36c-0d6b709719e1
+                  layoutElementUid: ed69e655-73d9-4f2b-94a0-2275e9b4faf8
+                  operator: notempty
+                  uid: bff13979-b76b-4287-ba37-4524086ab37a
+              elementType: craft\elements\Entry
+              fieldContext: global
             fieldUid: 40e14f90-0640-452d-9c8a-9f30f73bacbb
             handle: position
             includeInCards: false

@@ -95,7 +95,18 @@ fieldLayouts:
             warning: null
             width: 50
           -
-            elementCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\TextFieldConditionRule
+                  fieldUid: 2561c4fb-34b5-49e6-ade6-f774411e48ba
+                  layoutElementUid: f3b691ab-3aba-42aa-9b69-08b6498a0827
+                  operator: notempty
+                  uid: 24a4bc9a-8719-420a-9fb1-dc1c71dbf719
+                  value: ''
+              elementType: craft\elements\Entry
+              fieldContext: global
             fieldUid: 896816a1-5444-4e1b-b74c-efbac472953c
             handle: placeholderImage
             includeInCards: false
@@ -110,7 +121,18 @@ fieldLayouts:
             warning: null
             width: 50
           -
-            elementCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\TextFieldConditionRule
+                  fieldUid: 2561c4fb-34b5-49e6-ade6-f774411e48ba
+                  layoutElementUid: f3b691ab-3aba-42aa-9b69-08b6498a0827
+                  operator: notempty
+                  uid: 6c06bc96-07da-42e3-a38a-8b5035a1d6e5
+                  value: ''
+              elementType: craft\elements\Entry
+              fieldContext: global
             fieldUid: c8533e19-1c6c-4d33-8e50-71babb409313
             handle: null
             includeInCards: false
@@ -125,7 +147,18 @@ fieldLayouts:
             warning: null
             width: 50
           -
-            elementCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\TextFieldConditionRule
+                  fieldUid: 2561c4fb-34b5-49e6-ade6-f774411e48ba
+                  layoutElementUid: f3b691ab-3aba-42aa-9b69-08b6498a0827
+                  operator: notempty
+                  uid: ec290809-f6cb-4b14-a14d-f471e3946c5c
+                  value: ''
+              elementType: craft\elements\Entry
+              fieldContext: global
             fieldUid: 561b6d99-0213-4cfc-bd14-c3c4f4ff02d3
             handle: videoCaption
             includeInCards: false
